@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    overflow-x: hidden;
+    font-family: var(--font-valueSansPro);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal !important;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div[role="tablist"] {
+    color: #031811 !important;
+    gap: 4px
+}
+
+div[role="tablist"] button {
+    margin: 0 !important;
+    padding: 12px 24px;
+    background-color: transparent;
+    box-shadow: none !important;
+    border: 1px solid transparent;
+    transition: background-color 0.5s ease-in-out;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+div[role="tablist"] button[aria-selected="true"] {
+    color: #86371C;
+    border-color: #86371C;
+}
+
+div[role="tabpanel"] {
+    padding: 0 !important;
+}
+
+
+.swiper-3 .swiper-pagination {
+    text-align: left !important;
+}
+
+.swiper-3 .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #270A05;
+    opacity: 10%;
+}
+
+.swiper-3 .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #86371C;
+    opacity: 100%;
+}
+
+/* responsive  */
+
+@media (min-width: 1024px) {
+    div[role="tablist"] {
+        gap: 24px
+    }
+}
