@@ -6,7 +6,7 @@ const DrawerSubMenu = ({ route, isActive, toggleSubMenu }) => {
     <li>
       <div>
         <div
-          className='flex flex-nowrap justify-between p-4'
+          className='flex flex-nowrap justify-between p-4 cursor-pointer'
           onClick={toggleSubMenu}
         >
           <button className='capitalize'>{route.name}</button>

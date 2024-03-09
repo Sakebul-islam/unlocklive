@@ -34,7 +34,7 @@ const Drawer = ({ isOpen, setIsOpen }) => {
         }`}
       >
         <div
-          className='absolute w-full h-full bg-black/50 -z-10 delay-700'
+          className='absolute w-full h-full bg-black/50 -z-10 delay-700 cursor-pointer'
           onClick={toggleMenu}
         ></div>
         <div className='w-10/12 min-h-screen bg-white'>

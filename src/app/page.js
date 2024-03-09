@@ -9,14 +9,12 @@ import Showcase from '@/components/Showcase';
 export default function HomePage() {
   return (
     <MainLayout>
-      <main>
-        <Banner />
-        <Opening />
-        <Choose />
-        <CoffeeMenu />
-        <Recipes />
-        <Showcase />
-      </main>
+      <Banner />
+      <Opening />
+      <Choose />
+      <CoffeeMenu />
+      <Recipes />
+      <Showcase />
     </MainLayout>
   );
 }
