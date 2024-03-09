@@ -1,4 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# UnlockLive - Coffee Shop Platform
+
+Welcome to UnlockLive, a Coffee Shop platform built with Next.js!.
+
+## Live Demo
+
+Check out the live demo of Miro: [UnlockLive Demo](https://unlockLive.sakebul.com/)
 
 ## Getting Started
 
