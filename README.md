@@ -4,7 +4,7 @@ Welcome to UnlockLive, a Coffee Shop platform built with Next.js!.
 
 ## Live Demo
 
-Check out the live demo of Miro: [UnlockLive Demo](https://unlockLive.sakebul.com/)
+Check out the live demo of UnlockLive: [UnlockLive Demo](https://unlockLive.sakebul.com/)
 
 ## Getting Started
 
