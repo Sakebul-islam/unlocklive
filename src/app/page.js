@@ -1,11 +1,22 @@
-import Home from '@/components/Home';
-import Image from 'next/image';
-
+import MainLayout from '@/components/MainLayout';
+import Banner from '@/components/Banner';
+import Opening from '@/components/Opening';
+import Choose from '@/components/Choose';
+import CoffeeMenu from '@/components/CoffeeMenu';
+import Recipes from '@/components/Recipes';
+import Showcase from '@/components/Showcase';
 
 export default function HomePage() {
   return (
-    <>
-      <Home />
-    </>
+    <MainLayout>
+      <main>
+        <Banner />
+        <Opening />
+        <Choose />
+        <CoffeeMenu />
+        <Recipes />
+        <Showcase />
+      </main>
+    </MainLayout>
   );
 }
